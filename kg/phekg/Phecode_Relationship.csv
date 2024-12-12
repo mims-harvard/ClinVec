@@ -1,0 +1,1026 @@
+CHILD_CODE,PARENT_CODE,PARENT_STR
+333.2,333,Extrapyramidal disease and abnormal movement disorders
+333.4,333,Extrapyramidal disease and abnormal movement disorders
+333.1,333,Extrapyramidal disease and abnormal movement disorders
+333.3,333,Extrapyramidal disease and abnormal movement disorders
+333.8,333,Extrapyramidal disease and abnormal movement disorders
+496.21,496.2,Chronic bronchitis
+187.1,187,Cancer of other male genital organs
+187.2,187,Cancer of other male genital organs
+187.8,187,Cancer of other male genital organs
+260.3,260,Protein-calorie malnutrition
+519.8,519,"Other diseases of respiratory system, not elsewhere classified"
+519.9,519,"Other diseases of respiratory system, not elsewhere classified"
+519.2,519,"Other diseases of respiratory system, not elsewhere classified"
+522.5,522,Diseases of pulp and periapical tissues
+522.1,522,Diseases of pulp and periapical tissues
+742.9,742,"Derangement of joint, non-traumatic"
+742.8,742,"Derangement of joint, non-traumatic"
+742.1,742,"Derangement of joint, non-traumatic"
+742.2,742,"Derangement of joint, non-traumatic"
+350.2,350,Abnormal movement
+350.5,350,Abnormal movement
+350.1,350,Abnormal movement
+350.3,350,Abnormal movement
+530.6,530,Diseases of esophagus
+530.2,530,Diseases of esophagus
+530.5,530,Diseases of esophagus
+530.7,530,Diseases of esophagus
+530.3,530,Diseases of esophagus
+735.1,735,Acquired foot deformities
+735.3,735,Acquired foot deformities
+172.21,172.2,Other non-epithelial cancer of skin
+172.22,172.2,Other non-epithelial cancer of skin
+195.1,195,"Cancer, suspected or other"
+571.6,571,Chronic liver disease and cirrhosis
+599.4,599,Other symptoms/disorders or the urinary system
+599.5,599,Other symptoms/disorders or the urinary system
+599.8,599,Other symptoms/disorders or the urinary system
+599.3,599,Other symptoms/disorders or the urinary system
+599.6,599,Other symptoms/disorders or the urinary system
+599.9,599,Other symptoms/disorders or the urinary system
+599.7,599,Other symptoms/disorders or the urinary system
+250.13,250.1,Type 1 diabetes
+250.12,250.1,Type 1 diabetes
+250.11,250.1,Type 1 diabetes
+250.14,250.1,Type 1 diabetes
+250.15,250.1,Type 1 diabetes
+250.23,250.2,Type 2 diabetes
+250.24,250.2,Type 2 diabetes
+250.22,250.2,Type 2 diabetes
+250.21,250.2,Type 2 diabetes
+250.25,250.2,Type 2 diabetes
+371.33,371.3,Inflammation of eyelids
+420.1,420,Carditis
+420.3,420,Carditis
+681.6,681,Superficial cellulitis and abscess
+681.2,681,Superficial cellulitis and abscess
+681.1,681,Superficial cellulitis and abscess
+681.3,681,Superficial cellulitis and abscess
+681.7,681,Superficial cellulitis and abscess
+681.5,681,Superficial cellulitis and abscess
+384.1,384,Other disorders of tympanic membrane
+384.4,384,Other disorders of tympanic membrane
+525.2,525,Other diseases of the teeth and supporting structures
+525.1,525,Other diseases of the teeth and supporting structures
+244.4,244,Hypothyroidism
+244.3,244,Hypothyroidism
+244.5,244,Hypothyroidism
+244.2,244,Hypothyroidism
+244.1,244,Hypothyroidism
+315.2,315,Develomental delays and disorders
+315.3,315,Develomental delays and disorders
+427.21,427.2,Atrial fibrillation and flutter
+427.22,427.2,Atrial fibrillation and flutter
+428.1,428,Congestive heart failure; nonhypertensive
+428.3,428,Congestive heart failure; nonhypertensive
+428.2,428,Congestive heart failure; nonhypertensive
+428.4,428,Congestive heart failure; nonhypertensive
+695.42,695.4,Lupus (localized and systemic)
+695.41,695.4,Lupus (localized and systemic)
+706.8,706,Diseases of sebaceous glands
+706.2,706,Diseases of sebaceous glands
+706.3,706,Diseases of sebaceous glands
+706.1,706,Diseases of sebaceous glands
+727.5,727,"Other disorders of synovium, tendon, and bursa"
+727.8,727,"Other disorders of synovium, tendon, and bursa"
+727.4,727,"Other disorders of synovium, tendon, and bursa"
+727.6,727,"Other disorders of synovium, tendon, and bursa"
+727.7,727,"Other disorders of synovium, tendon, and bursa"
+727.1,727,"Other disorders of synovium, tendon, and bursa"
+727.2,727,"Other disorders of synovium, tendon, and bursa"
+270.12,270.1,Disturbances of amino-acid transport
+270.11,270.1,Disturbances of amino-acid transport
+362.6,362,Other retinal disorders
+362.8,362,Other retinal disorders
+362.7,362,Other retinal disorders
+362.9,362,Other retinal disorders
+362.5,362,Other retinal disorders
+362.1,362,Other retinal disorders
+362.4,362,Other retinal disorders
+513.8,513,Respiratory abnormalities
+513.4,513,Respiratory abnormalities
+594.1,594,Urinary calculus
+594.2,594,Urinary calculus
+594.3,594,Urinary calculus
+594.8,594,Urinary calculus
+755.4,755,Congenital anomalies of limbs
+755.1,755,Congenital anomalies of limbs
+755.3,755,Congenital anomalies of limbs
+070.2,070,Viral hepatitis
+070.1,070,Viral hepatitis
+070.3,070,Viral hepatitis
+743.12,743.1,Osteoporosis
+743.13,743.1,Osteoporosis
+743.11,743.1,Osteoporosis
+345.11,345.1,Epilepsy
+345.12,345.1,Epilepsy
+574.2,574,Cholelithiasis and cholecystitis
+574.3,574,Cholelithiasis and cholecystitis
+292.12,292.1,Aphasia/speech disturbance
+292.11,292.1,Aphasia/speech disturbance
+191.11,191.1,Cancer of brain and nervous system
+300.11,300.1,Anxiety disorder
+300.12,300.1,Anxiety disorder
+300.13,300.1,Anxiety disorder
+371.9,371,Inflammation of the eye
+371.1,371,Inflammation of the eye
+253.5,253,Disorders of the pituitary gland and its hypothalamic control
+253.7,253,Disorders of the pituitary gland and its hypothalamic control
+253.2,253,Disorders of the pituitary gland and its hypothalamic control
+253.4,253,Disorders of the pituitary gland and its hypothalamic control
+253.3,253,Disorders of the pituitary gland and its hypothalamic control
+261.2,261,Vitamin deficiency
+261.1,261,Vitamin deficiency
+261.3,261,Vitamin deficiency
+751.3,751,Genitourinary congenital anomalies
+277.2,277,Other disorders of metabolism
+277.1,277,Other disorders of metabolism
+277.8,277,Other disorders of metabolism
+736.6,736,Other acquired deformities of limbs
+736.4,736,Other acquired deformities of limbs
+736.3,736,Other acquired deformities of limbs
+736.1,736,Other acquired deformities of limbs
+736.5,736,Other acquired deformities of limbs
+736.2,736,Other acquired deformities of limbs
+716.9,716,Other arthropathies
+716.3,716,Other arthropathies
+716.8,716,Other arthropathies
+716.1,716,Other arthropathies
+716.2,716,Other arthropathies
+367.1,367,Disorders of refraction and accommodation; blindness and low vision
+367.2,367,Disorders of refraction and accommodation; blindness and low vision
+367.9,367,Disorders of refraction and accommodation; blindness and low vision
+367.8,367,Disorders of refraction and accommodation; blindness and low vision
+369.5,369,Infection of the eye
+369.2,369,Infection of the eye
+526.3,526,Diseases of the jaws
+526.5,526,Diseases of the jaws
+526.8,526,Diseases of the jaws
+526.9,526,Diseases of the jaws
+526.1,526,Diseases of the jaws
+430.1,430,Intracranial hemorrhage
+430.2,430,Intracranial hemorrhage
+430.3,430,Intracranial hemorrhage
+394.3,394,Rheumatic disease of the heart valves
+394.4,394,Rheumatic disease of the heart valves
+394.7,394,Rheumatic disease of the heart valves
+394.2,394,Rheumatic disease of the heart valves
+394.1,394,Rheumatic disease of the heart valves
+555.21,555.2,Ulcerative colitis
+580.4,580,Nephritis; nephrosis; renal sclerosis
+580.2,580,Nephritis; nephrosis; renal sclerosis
+528.12,528.1,Stomatitis and mucositis
+528.11,528.1,Stomatitis and mucositis
+705.1,705,Disorders of sweat glands
+705.3,705,Disorders of sweat glands
+153.2,153,Colorectal cancer
+153.3,153,Colorectal cancer
+627.21,627.2,Symptomatic menopause
+627.22,627.2,Symptomatic menopause
+286.7,286,Coagulation defects
+286.6,286,Coagulation defects
+286.5,286,Coagulation defects
+286.9,286,Coagulation defects
+286.4,286,Coagulation defects
+379.2,379,Other disorders of eye
+379.3,379,Other disorders of eye
+379.1,379,Other disorders of eye
+379.4,379,Other disorders of eye
+411.1,411,Ischemic Heart Disease
+411.2,411,Ischemic Heart Disease
+411.8,411,Ischemic Heart Disease
+411.3,411,Ischemic Heart Disease
+411.9,411,Ischemic Heart Disease
+550.6,550,Abdominal hernia
+550.1,550,Abdominal hernia
+550.3,550,Abdominal hernia
+550.5,550,Abdominal hernia
+550.2,550,Abdominal hernia
+550.4,550,Abdominal hernia
+560.3,560,Intestinal obstruction without mention of hernia
+560.4,560,Intestinal obstruction without mention of hernia
+560.1,560,Intestinal obstruction without mention of hernia
+560.2,560,Intestinal obstruction without mention of hernia
+871.4,871,Open wounds of extremities
+871.1,871,Open wounds of extremities
+871.2,871,Open wounds of extremities
+871.3,871,Open wounds of extremities
+245.1,245,Thyroiditis
+425.2,425,Cardiomyopathy
+425.8,425,Cardiomyopathy
+611.11,611.1,Abnormal mammogram
+149.2,149,"Cancer of larynx, pharynx, nasal cavities"
+149.3,149,"Cancer of larynx, pharynx, nasal cavities"
+149.1,149,"Cancer of larynx, pharynx, nasal cavities"
+149.4,149,"Cancer of larynx, pharynx, nasal cavities"
+149.9,149,"Cancer of larynx, pharynx, nasal cavities"
+149.5,149,"Cancer of larynx, pharynx, nasal cavities"
+427.8,427,Cardiac dysrhythmias
+427.5,427,Cardiac dysrhythmias
+427.7,427,Cardiac dysrhythmias
+427.3,427,Cardiac dysrhythmias
+427.9,427,Cardiac dysrhythmias
+531.3,531,Peptic ulcer (excl. esophageal)
+531.1,531,Peptic ulcer (excl. esophageal)
+531.4,531,Peptic ulcer (excl. esophageal)
+531.2,531,Peptic ulcer (excl. esophageal)
+531.5,531,Peptic ulcer (excl. esophageal)
+592.3,592,Cystitis and urethritis
+521.2,521,Diseases of hard tissues of teeth
+521.1,521,Diseases of hard tissues of teeth
+521.4,521,Diseases of hard tissues of teeth
+701.5,701,Other hypertrophic and atrophic conditions of skin
+701.1,701,Other hypertrophic and atrophic conditions of skin
+701.6,701,Other hypertrophic and atrophic conditions of skin
+701.4,701,Other hypertrophic and atrophic conditions of skin
+701.2,701,Other hypertrophic and atrophic conditions of skin
+701.3,701,Other hypertrophic and atrophic conditions of skin
+189.12,189.1,Cancer of kidney and renal pelvis
+189.11,189.1,Cancer of kidney and renal pelvis
+870.8,870,Open wounds of head; neck; and trunk
+870.6,870,Open wounds of head; neck; and trunk
+870.2,870,Open wounds of head; neck; and trunk
+870.3,870,Open wounds of head; neck; and trunk
+870.1,870,Open wounds of head; neck; and trunk
+870.4,870,Open wounds of head; neck; and trunk
+870.5,870,Open wounds of head; neck; and trunk
+751.22,751.2,Congenital anomalies of urinary system
+751.21,751.2,Congenital anomalies of urinary system
+145.1,145,Cancer of mouth
+145.2,145,Cancer of mouth
+145.5,145,Cancer of mouth
+145.3,145,Cancer of mouth
+145.4,145,Cancer of mouth
+395.3,395,Heart valve disorders
+395.2,395,Heart valve disorders
+395.6,395,Heart valve disorders
+395.4,395,Heart valve disorders
+395.1,395,Heart valve disorders
+656.1,656,Other perinatal conditions of fetus or newborn
+656.7,656,Other perinatal conditions of fetus or newborn
+656.3,656,Other perinatal conditions of fetus or newborn
+656.5,656,Other perinatal conditions of fetus or newborn
+656.9,656,Other perinatal conditions of fetus or newborn
+656.6,656,Other perinatal conditions of fetus or newborn
+656.8,656,Other perinatal conditions of fetus or newborn
+656.4,656,Other perinatal conditions of fetus or newborn
+275.3,275,Disorders of mineral metabolism
+275.2,275,Disorders of mineral metabolism
+275.6,275,Disorders of mineral metabolism
+442.11,442.1,Aortic aneurysm
+229.1,229,Benign neoplasm of unspecified sites
+368.91,368.9,Subjective visual disturbances
+523.1,523,Gingival and periodontal diseases
+110.2,110,Dermatophytosis / Dermatomycosis
+366.1,366,Cataract
+366.3,366,Cataract
+366.2,366,Cataract
+695.81,695.8,Other specified erythematous conditions
+446.9,446,Polyarteritis nodosa and allied conditions
+446.8,446,Polyarteritis nodosa and allied conditions
+446.6,446,Polyarteritis nodosa and allied conditions
+446.7,446,Polyarteritis nodosa and allied conditions
+446.3,446,Polyarteritis nodosa and allied conditions
+446.2,446,Polyarteritis nodosa and allied conditions
+446.4,446,Polyarteritis nodosa and allied conditions
+446.5,446,Polyarteritis nodosa and allied conditions
+446.1,446,Polyarteritis nodosa and allied conditions
+275.53,275.5,Disorders of calcium/phosphorus metabolism
+275.51,275.5,Disorders of calcium/phosphorus metabolism
+523.32,523.3,Periodontitis (acute or chronic)
+523.31,523.3,Periodontitis (acute or chronic)
+603.2,603,Other disorders of testis
+603.1,603,Other disorders of testis
+627.4,627,Menopausal and postmenopausal disorders
+627.1,627,Menopausal and postmenopausal disorders
+627.5,627,Menopausal and postmenopausal disorders
+627.3,627,Menopausal and postmenopausal disorders
+362.26,362.2,Degeneration of macula and posterior pole of retina
+362.29,362.2,Degeneration of macula and posterior pole of retina
+362.27,362.2,Degeneration of macula and posterior pole of retina
+362.21,362.2,Degeneration of macula and posterior pole of retina
+362.23,362.2,Degeneration of macula and posterior pole of retina
+362.22,362.2,Degeneration of macula and posterior pole of retina
+426.4,426,Cardiac conduction disorders
+426.7,426,Cardiac conduction disorders
+426.8,426,Cardiac conduction disorders
+575.2,575,Other biliary tract disease
+575.9,575,Other biliary tract disease
+575.6,575,Other biliary tract disease
+575.8,575,Other biliary tract disease
+575.1,575,Other biliary tract disease
+575.7,575,Other biliary tract disease
+578.2,578,Gastrointestinal hemorrhage
+578.1,578,Gastrointestinal hemorrhage
+578.8,578,Gastrointestinal hemorrhage
+578.9,578,Gastrointestinal hemorrhage
+694.3,694,Dyschromia and Vitiligo
+694.1,694,Dyschromia and Vitiligo
+694.2,694,Dyschromia and Vitiligo
+327.41,327.4,Insomnia
+585.33,585.3,Chronic renal failure [CKD]
+585.34,585.3,Chronic renal failure [CKD]
+585.31,585.3,Chronic renal failure [CKD]
+585.32,585.3,Chronic renal failure [CKD]
+610.2,610,Benign mammary dysplasias
+610.1,610,Benign mammary dysplasias
+610.4,610,Benign mammary dysplasias
+610.3,610,Benign mammary dysplasias
+275.11,275.1,Disorders of iron metabolism
+348.8,348,Other conditions of brain
+348.2,348,Other conditions of brain
+348.4,348,Other conditions of brain
+527.2,527,Diseases of the salivary glands
+527.7,527,Diseases of the salivary glands
+527.1,527,Diseases of the salivary glands
+527.8,527,Diseases of the salivary glands
+386.3,386,Vertiginous syndromes and other disorders of vestibular system
+386.1,386,Vertiginous syndromes and other disorders of vestibular system
+452.8,452,Other venous embolism and thrombosis
+452.2,452,Other venous embolism and thrombosis
+285.22,285.2,Anemia of chronic disease
+285.21,285.2,Anemia of chronic disease
+726.3,726,Peripheral enthesopathies and allied syndromes
+726.2,726,Peripheral enthesopathies and allied syndromes
+726.4,726,Peripheral enthesopathies and allied syndromes
+726.1,726,Peripheral enthesopathies and allied syndromes
+295.1,295,Schizophrenia and other psychotic disorders
+295.3,295,Schizophrenia and other psychotic disorders
+295.2,295,Schizophrenia and other psychotic disorders
+313.1,313,Pervasive developmental disorders
+313.2,313,Pervasive developmental disorders
+313.3,313,Pervasive developmental disorders
+359.1,359,Muscular dystrophies and other myopathies
+359.2,359,Muscular dystrophies and other myopathies
+512.7,512,Other symptoms of respiratory system
+512.8,512,Other symptoms of respiratory system
+512.2,512,Other symptoms of respiratory system
+512.9,512,Other symptoms of respiratory system
+512.3,512,Other symptoms of respiratory system
+512.1,512,Other symptoms of respiratory system
+618.1,618,Genital prolapse
+618.6,618,Genital prolapse
+618.2,618,Genital prolapse
+618.5,618,Genital prolapse
+626.4,626,Disorders of menstruation and other abnormal bleeding from female genital tract
+626.8,626,Disorders of menstruation and other abnormal bleeding from female genital tract
+965.3,965,"Poisoning by analgesics, antipyretics, and antirheumatics"
+965.2,965,"Poisoning by analgesics, antipyretics, and antirheumatics"
+433.5,433,Cerebrovascular disease
+433.8,433,Cerebrovascular disease
+433.6,433,Cerebrovascular disease
+702.2,702,Degenerative skin conditions and other dermatoses
+702.4,702,Degenerative skin conditions and other dermatoses
+702.1,702,Degenerative skin conditions and other dermatoses
+271.9,271,Disorders of carbohydrate transport and metabolism
+271.3,271,Disorders of carbohydrate transport and metabolism
+327.1,327,Sleep disorders
+327.5,327,Sleep disorders
+327.6,327,Sleep disorders
+994.1,994,Sepsis and SIRS
+041.4,041,Bacterial infection NOS
+041.8,041,Bacterial infection NOS
+041.9,041,Bacterial infection NOS
+710.12,710.1,Osteomyelitis
+710.19,710.1,Osteomyelitis
+710.11,710.1,Osteomyelitis
+184.2,184,Cancer of other female genital organs
+385.5,385,Other disorders of middle ear and mastoid
+385.3,385,Other disorders of middle ear and mastoid
+743.4,743,"Osteoporosis, osteopenia and pathological fracture"
+743.9,743,"Osteoporosis, osteopenia and pathological fracture"
+241.1,241,Nontoxic nodular goiter
+241.2,241,Nontoxic nodular goiter
+364.2,364,Corneal opacity and other disorders of cornea
+364.9,364,Corneal opacity and other disorders of cornea
+465.2,465,Acute upper respiratory infections of multiple or unspecified sites
+465.4,465,Acute upper respiratory infections of multiple or unspecified sites
+224.1,224,Benign neoplasm of eye
+323.8,323,Encephalitis
+323.2,323,Encephalitis
+426.91,426.9,Cardiac pacemaker/device in situ
+426.92,426.9,Cardiac pacemaker/device in situ
+634.1,634,Miscarriage; stillbirth
+634.3,634,Miscarriage; stillbirth
+614.54,614.5,"Inflammatory disease of cervix, vagina, and vulva"
+614.53,614.5,"Inflammatory disease of cervix, vagina, and vulva"
+614.52,614.5,"Inflammatory disease of cervix, vagina, and vulva"
+614.51,614.5,"Inflammatory disease of cervix, vagina, and vulva"
+360.2,360,Disorders of the globe
+360.3,360,Disorders of the globe
+334.1,334,Degenerative disease of the spinal cord
+401.22,401.2,Hypertensive heart and/or renal disease
+401.21,401.2,Hypertensive heart and/or renal disease
+279.11,279.1,Immunity deficiency
+690.1,690,Erythematosquamous dermatosis
+696.3,696,Psoriasis and related disorders
+696.2,696,Psoriasis and related disorders
+130.1,130,Spirochetal infection
+340.1,340,Migraine
+286.13,286.1,Congenital coagulation defects
+286.11,286.1,Congenital coagulation defects
+286.12,286.1,Congenital coagulation defects
+270.31,270.3,Disorders of plasma protein metabolism
+270.35,270.3,Disorders of plasma protein metabolism
+270.32,270.3,Disorders of plasma protein metabolism
+270.34,270.3,Disorders of plasma protein metabolism
+270.38,270.3,Disorders of plasma protein metabolism
+288.2,288,Diseases of white blood cells
+288.3,288,Diseases of white blood cells
+290.13,290.1,Dementias
+290.12,290.1,Dementias
+290.11,290.1,Dementias
+290.16,290.1,Dementias
+358.1,358,Myoneural disorders
+276.5,276,"Disorders of fluid, electrolyte, and acid-base balance"
+276.6,276,"Disorders of fluid, electrolyte, and acid-base balance"
+370.2,370,Keratitis
+370.1,370,Keratitis
+442.2,442,Other aneurysm
+442.4,442,Other aneurysm
+442.8,442,Other aneurysm
+442.3,442,Other aneurysm
+756.1,756,Other congenital musculoskeletal anomalies
+756.3,756,Other congenital musculoskeletal anomalies
+756.5,756,Other congenital musculoskeletal anomalies
+117.2,117,Mycoses
+117.3,117,Mycoses
+117.4,117,Mycoses
+117.1,117,Mycoses
+707.1,707,Chronic ulcer of skin
+707.3,707,Chronic ulcer of skin
+707.2,707,Chronic ulcer of skin
+189.4,189,Cancer of urinary organs (incl. kidney and bladder)
+427.61,427.6,Premature beats
+586.11,586.1,Anatomical abnormatilies of kidney and ureters
+586.12,586.1,Anatomical abnormatilies of kidney and ureters
+426.21,426.2,Atrioventricular [AV] block
+426.25,426.2,Atrioventricular [AV] block
+426.22,426.2,Atrioventricular [AV] block
+426.23,426.2,Atrioventricular [AV] block
+426.24,426.2,Atrioventricular [AV] block
+729.1,729,Other disorders of soft tissues
+327.32,327.3,Sleep apnea
+327.31,327.3,Sleep apnea
+495.11,495.1,Chronic obstructive asthma
+614.1,614,Inflammatory diseases of female pelvic organs
+614.4,614,Inflammatory diseases of female pelvic organs
+071.1,071,Human immunodeficiency virus [HIV] disease
+270.21,270.2,Disorders of amino-acid metabolism
+132.1,132,"Infestation (lice, mites)"
+378.1,378,Strabismus and other disorders of binocular eye movements
+378.2,378,Strabismus and other disorders of binocular eye movements
+378.5,378,Strabismus and other disorders of binocular eye movements
+276.13,276.1,Electrolyte imbalance
+276.14,276.1,Electrolyte imbalance
+276.12,276.1,Electrolyte imbalance
+276.11,276.1,Electrolyte imbalance
+291.1,291,Other specified nonpsychotic and/or transient mental disorders
+291.4,291,Other specified nonpsychotic and/or transient mental disorders
+291.8,291,Other specified nonpsychotic and/or transient mental disorders
+433.32,433.3,Cerebral ischemia
+433.31,433.3,Cerebral ischemia
+495.2,495,Asthma
+709.3,709,Diffuse diseases of connective tissue
+709.5,709,Diffuse diseases of connective tissue
+709.2,709,Diffuse diseases of connective tissue
+709.4,709,Diffuse diseases of connective tissue
+709.7,709,Diffuse diseases of connective tissue
+709.6,709,Diffuse diseases of connective tissue
+379.51,379.5,Disorders of iris and ciliary body
+528.5,528,"Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+528.6,528,"Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+528.7,528,"Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+528.3,528,"Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+305.21,305.2,Eating disorder
+480.3,480,Pneumonia
+480.5,480,Pneumonia
+480.2,480,Pneumonia
+565.1,565,Anal and rectal conditions
+643.1,643,Excessive vomiting in pregnancy
+090.2,090,Sexually transmitted infections (not HIV or hepatitis)
+090.3,090,Sexually transmitted infections (not HIV or hepatitis)
+457.2,457,"Encounter for long-term (current) use of anticoagulants, antithrombotics, aspirin"
+457.3,457,"Encounter for long-term (current) use of anticoagulants, antithrombotics, aspirin"
+740.11,740.1,Osteoarthritis; localized
+740.12,740.1,Osteoarthritis; localized
+602.3,602,Other disorders of prostate
+368.2,368,Visual disturbances
+368.3,368,Visual disturbances
+368.7,368,Visual disturbances
+368.1,368,Visual disturbances
+292.2,292,Neurological disorders
+292.6,292,Neurological disorders
+292.4,292,Neurological disorders
+292.5,292,Neurological disorders
+292.3,292,Neurological disorders
+710.2,710,"Osteomyelitis, periostitis, and other infections involving bone"
+710.3,710,"Osteomyelitis, periostitis, and other infections involving bone"
+218.1,218,Benign neoplasm of uterus
+218.2,218,Benign neoplasm of uterus
+276.42,276.4,Acid-base balance disorder
+276.41,276.4,Acid-base balance disorder
+962.3,962,Poisoning by hormones and synthetic substitutes
+962.2,962,Poisoning by hormones and synthetic substitutes
+962.1,962,Poisoning by hormones and synthetic substitutes
+281.9,281,Other deficiency anemia
+386.21,386.2,Peripheral or central vertigo
+573.1,573,Other disorders of liver
+480.11,480.1,Bacterial pneumonia
+480.12,480.1,Bacterial pneumonia
+480.13,480.1,Bacterial pneumonia
+204.22,204.2,Myeloid leukemia
+204.21,204.2,Myeloid leukemia
+337.1,337,Disorders of the autonomic nervous system
+420.21,420.2,Pericarditis
+420.22,420.2,Pericarditis
+958.2,958,Certain early complications of trauma or procedure
+958.1,958,Certain early complications of trauma or procedure
+217.1,217,Vascular hamartomas and non-neoplastic nevi
+246.2,246,Other disorders of thyroid
+415.21,415.2,Chronic pulmonary heart disease
+723.1,723,Other disorders of cervical region
+754.2,754,Congenital musculoskeletal deformities of spine
+754.1,754,Congenital musculoskeletal deformities of spine
+250.42,250.4,Abnormal glucose
+250.41,250.4,Abnormal glucose
+636.3,636,Early or threatened labor; hemorrhage in early pregnancy
+636.2,636,Early or threatened labor; hemorrhage in early pregnancy
+636.1,636,Early or threatened labor; hemorrhage in early pregnancy
+636.8,636,Early or threatened labor; hemorrhage in early pregnancy
+252.2,252,Disorders of parathyroid gland
+252.1,252,Disorders of parathyroid gland
+259.1,259,Other endocrine disorders
+297.1,297,Suicidal ideation or attempt
+297.2,297,Suicidal ideation or attempt
+564.9,564,Functional digestive disorders
+564.1,564,Functional digestive disorders
+604.3,604,Disorders of penis
+604.1,604,Disorders of penis
+604.2,604,Disorders of penis
+371.21,371.2,"Conjunctivitis, noninfectious"
+619.5,619,Noninflammatory female genital disorders
+619.1,619,Noninflammatory female genital disorders
+619.3,619,Noninflammatory female genital disorders
+619.4,619,Noninflammatory female genital disorders
+619.2,619,Noninflammatory female genital disorders
+459.9,459,Other disorders of circulatory system
+459.7,459,Other disorders of circulatory system
+459.1,459,Other disorders of circulatory system
+255.13,255.1,Adrenal hyperfunction
+255.12,255.1,Adrenal hyperfunction
+255.11,255.1,Adrenal hyperfunction
+530.13,530.1,"Esophagitis, GERD and related diseases"
+530.11,530.1,"Esophagitis, GERD and related diseases"
+530.14,530.1,"Esophagitis, GERD and related diseases"
+530.15,530.1,"Esophagitis, GERD and related diseases"
+530.12,530.1,"Esophagitis, GERD and related diseases"
+938.2,938,Dermatitis due to solar radiation
+938.1,938,Dermatitis due to solar radiation
+174.3,174,Breast cancer
+174.2,174,Breast cancer
+202.23,202.2,Non-Hodgkins lymphoma
+202.22,202.2,Non-Hodgkins lymphoma
+202.24,202.2,Non-Hodgkins lymphoma
+202.21,202.2,Non-Hodgkins lymphoma
+735.23,735.2,Acquired toe deformities
+735.21,735.2,Acquired toe deformities
+735.22,735.2,Acquired toe deformities
+300.8,300,"Anxiety, phobic and dissociative disorders"
+300.3,300,"Anxiety, phobic and dissociative disorders"
+300.9,300,"Anxiety, phobic and dissociative disorders"
+300.4,300,"Anxiety, phobic and dissociative disorders"
+300.2,300,"Anxiety, phobic and dissociative disorders"
+529.6,529,Diseases and other conditions of the tongue
+529.1,529,Diseases and other conditions of the tongue
+443.7,443,Peripheral vascular disease
+443.9,443,Peripheral vascular disease
+443.8,443,Peripheral vascular disease
+443.1,443,Peripheral vascular disease
+626.12,626.1,Irregular menstrual cycle/bleeding
+626.15,626.1,Irregular menstrual cycle/bleeding
+626.11,626.1,Irregular menstrual cycle/bleeding
+626.13,626.1,Irregular menstrual cycle/bleeding
+626.14,626.1,Irregular menstrual cycle/bleeding
+425.11,425.1,Primary/intrinsic cardiomyopathies
+425.12,425.1,Primary/intrinsic cardiomyopathies
+755.61,755.6,"Other congenital anomalies of lower limb, including pelvic girdle"
+798.1,798,Malaise and fatigue
+038.2,038,Septicemia
+038.1,038,Septicemia
+038.3,038,Septicemia
+159.3,159,Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum
+159.2,159,Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum
+159.4,159,Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum
+609.11,609.1,"Infertility, male"
+733.2,733,Other disorders of bone and cartilage
+752.11,752.1,Neural tube defects
+041.21,041.2,Streptococcus infection
+255.21,255.2,Adrenal hypofunction
+255.22,255.2,Adrenal hypofunction
+204.12,204.1,Lymphoid leukemia
+204.11,204.1,Lymphoid leukemia
+278.11,278.1,Obesity
+296.1,296,Mood disorders
+283.1,283,Acquired hemolytic anemias
+301.1,301,Personality disorders
+301.2,301,Personality disorders
+504.1,504,Other alveolar and parietoalveolar pneumonopathy
+574.12,574.1,Cholelithiasis
+574.11,574.1,Cholelithiasis
+296.22,296.2,Depression
+008.7,008,Intestinal infection
+008.6,008,Intestinal infection
+199.4,199,Neoplasm of uncertain behavior
+278.4,278,"Overweight, obesity and other hyperalimentation"
+278.3,278,"Overweight, obesity and other hyperalimentation"
+598.4,598,Abnormal findings on examination of urine
+818.1,818,Intracranial hemorrhage (injury)
+818.2,818,Intracranial hemorrhage (injury)
+535.1,535,Gastritis and duodenitis
+535.2,535,Gastritis and duodenitis
+535.6,535,Gastritis and duodenitis
+535.9,535,Gastritis and duodenitis
+535.8,535,Gastritis and duodenitis
+586.2,586,Other disorders of the kidney and ureters
+586.4,586,Other disorders of the kidney and ureters
+586.3,586,Other disorders of the kidney and ureters
+609.2,609,Male infertility and abnormal spermatozoa
+585.2,585,Renal failure
+585.1,585,Renal failure
+585.4,585,Renal failure
+429.3,429,Ill-defined descriptions and complications of heart disease
+429.9,429,Ill-defined descriptions and complications of heart disease
+429.2,429,Ill-defined descriptions and complications of heart disease
+526.42,526.4,Temporomandibular joint disorders
+526.41,526.4,Temporomandibular joint disorders
+274.11,274.1,Gout
+204.4,204,Leukemia
+204.3,204,Leukemia
+285.1,285,Other anemias
+285.3,285,Other anemias
+303.31,303.3,Psychogenic disorder
+624.1,624,Symptoms involving female genital tract
+624.2,624,Symptoms involving female genital tract
+612.3,612,"Breast conditions, congenital or relating to hormones"
+612.2,612,"Breast conditions, congenital or relating to hormones"
+612.1,612,"Breast conditions, congenital or relating to hormones"
+363.4,363,"Chorioretinal inflammations, scars, and other disorders of choroid"
+363.3,363,"Chorioretinal inflammations, scars, and other disorders of choroid"
+513.32,513.3,Hypoventilation
+513.31,513.3,Hypoventilation
+427.42,427.4,Cardiac arrest and ventricular fibrillation
+427.41,427.4,Cardiac arrest and ventricular fibrillation
+577.1,577,Diseases of pancreas
+577.2,577,Diseases of pancreas
+577.3,577,Diseases of pancreas
+352.2,352,Disorders of other cranial nerves
+352.1,352,Disorders of other cranial nerves
+440.1,440,Atherosclerosis
+440.9,440,Atherosclerosis
+753.1,753,Congenital anomalies of the eye
+753.2,753,Congenital anomalies of the eye
+272.9,272,Disorders of lipoid metabolism
+596.5,596,Other disorders of bladder
+596.1,596,Other disorders of bladder
+741.4,741,Symptoms and disorders of the joints
+741.6,741,Symptoms and disorders of the joints
+741.1,741,Symptoms and disorders of the joints
+741.2,741,Symptoms and disorders of the joints
+741.3,741,Symptoms and disorders of the joints
+741.5,741,Symptoms and disorders of the joints
+724.9,724,Other and unspecified disorders of back
+724.1,724,Other and unspecified disorders of back
+724.8,724,Other and unspecified disorders of back
+724.2,724,Other and unspecified disorders of back
+228.1,228,"Hemangioma and lymphangioma, any site"
+704.8,704,Diseases of hair and hair follicles
+751.11,751.1,Congenital anomalies of genital organs
+751.12,751.1,Congenital anomalies of genital organs
+509.8,509,"Respiratory failure, insufficiency, arrest"
+509.1,509,"Respiratory failure, insufficiency, arrest"
+509.2,509,"Respiratory failure, insufficiency, arrest"
+509.5,509,"Respiratory failure, insufficiency, arrest"
+509.3,509,"Respiratory failure, insufficiency, arrest"
+795.81,795.8,Abnormal tumor markers
+795.82,795.8,Abnormal tumor markers
+257.1,257,Testicular dysfunction
+174.11,174.1,Breast cancer [female]
+361.1,361,Retinal detachments and defects
+361.2,361,Retinal detachments and defects
+389.3,389,Hearing loss
+389.2,389,Hearing loss
+389.1,389,Hearing loss
+389.5,389,Hearing loss
+389.4,389,Hearing loss
+282.5,282,Hereditary hemolytic anemias
+282.9,282,Hereditary hemolytic anemias
+282.8,282,Hereditary hemolytic anemias
+316.1,316,Substance addiction and disorders
+614.32,614.3,Pelvic inflammatory disease (PID)
+614.33,614.3,Pelvic inflammatory disease (PID)
+614.31,614.3,Pelvic inflammatory disease (PID)
+635.2,635,Hemorrhage during pregnancy; childbirth and postpartum
+635.3,635,Hemorrhage during pregnancy; childbirth and postpartum
+287.2,287,Purpura and other hemorrhagic conditions
+287.4,287,Purpura and other hemorrhagic conditions
+242.1,242,Thyrotoxicosis with or without goiter
+242.2,242,Thyrotoxicosis with or without goiter
+290.2,290,Delirium dementia and amnestic and other cognitive disorders
+170.2,170,Cancer of bone and connective tissue
+170.1,170,Cancer of bone and connective tissue
+272.14,272.1,Hyperlipidemia
+272.11,272.1,Hyperlipidemia
+272.13,272.1,Hyperlipidemia
+272.12,272.1,Hyperlipidemia
+458.2,458,Hypotension
+458.9,458,Hypotension
+458.1,458,Hypotension
+079.2,079,Viral infection
+079.1,079,Viral infection
+079.9,079,Viral infection
+381.9,381,Otitis media and Eustachian tube disorders
+381.3,381,Otitis media and Eustachian tube disorders
+381.2,381,Otitis media and Eustachian tube disorders
+444.2,444,Arterial embolism and thrombosis
+444.5,444,Arterial embolism and thrombosis
+444.1,444,Arterial embolism and thrombosis
+622.1,622,Polyp of female genital organs
+622.2,622,Polyp of female genital organs
+715.2,715,Other inflammatory spondylopathies
+715.1,715,Other inflammatory spondylopathies
+715.3,715,Other inflammatory spondylopathies
+496.1,496,Chronic airway obstruction
+496.3,496,Chronic airway obstruction
+695.1,695,Erythematous conditions
+695.7,695,Erythematous conditions
+695.3,695,Erythematous conditions
+695.9,695,Erythematous conditions
+597.1,597,Other disorders of urethra and urinary tract
+597.8,597,Other disorders of urethra and urinary tract
+722.9,722,Intervertebral disc disorders
+722.3,722,Intervertebral disc disorders
+722.1,722,Intervertebral disc disorders
+722.6,722,Intervertebral disc disorders
+722.7,722,Intervertebral disc disorders
+722.8,722,Intervertebral disc disorders
+749.1,749,Congenital anomalies of face and neck
+749.2,749,Congenital anomalies of face and neck
+803.21,803.2,Fracture of radius and ulna
+306.9,306,Other mental disorder
+738.4,738,Other acquired musculoskeletal deformity
+264.3,264,Lack of normal physiological development
+264.9,264,Lack of normal physiological development
+264.2,264,Lack of normal physiological development
+264.1,264,Lack of normal physiological development
+447.1,447,Other disorders of arteries and arterioles
+447.7,447,Other disorders of arteries and arterioles
+732.7,732,Osteochondropathies
+732.1,732,Osteochondropathies
+714.1,714,Rheumatoid arthritis and other inflammatory polyarthropathies
+714.2,714,Rheumatoid arthritis and other inflammatory polyarthropathies
+740.2,740,Osteoarthrosis
+740.9,740,Osteoarthrosis
+740.3,740,Osteoarthrosis
+800.2,800,Fracture of lower limb
+800.3,800,Fracture of lower limb
+800.4,800,Fracture of lower limb
+800.1,800,Fracture of lower limb
+198.7,198,Secondary malignant neoplasm
+198.4,198,Secondary malignant neoplasm
+198.3,198,Secondary malignant neoplasm
+198.1,198,Secondary malignant neoplasm
+198.2,198,Secondary malignant neoplasm
+198.6,198,Secondary malignant neoplasm
+198.5,198,Secondary malignant neoplasm
+721.8,721,Spondylosis and allied disorders
+721.2,721,Spondylosis and allied disorders
+721.1,721,Spondylosis and allied disorders
+750.22,750.2,Lower gastrointestinal congenital anomalies
+750.21,750.2,Lower gastrointestinal congenital anomalies
+803.1,803,Fracture of upper limb
+803.3,803,Fracture of upper limb
+474.1,474,Acute and chronic tonsillitis
+474.2,474,Acute and chronic tonsillitis
+289.8,289,Other diseases of blood and blood-forming organs
+289.9,289,Other diseases of blood and blood-forming organs
+289.3,289,Other diseases of blood and blood-forming organs
+289.1,289,Other diseases of blood and blood-forming organs
+353.2,353,Nerve root and plexus disorders
+353.1,353,Nerve root and plexus disorders
+284.1,284,Aplastic anemia
+284.2,284,Aplastic anemia
+324.1,324,Other CNS infection and poliomyelitis
+286.81,286.8,Hypercoagulable state
+008.52,008.5,Bacterial enteritis
+008.51,008.5,Bacterial enteritis
+569.2,569,Other disorders of intestine
+569.1,569,Other disorders of intestine
+613.9,613,Other nonmalignant breast conditions
+613.8,613,Other nonmalignant breast conditions
+613.7,613,Other nonmalignant breast conditions
+613.1,613,Other nonmalignant breast conditions
+613.5,613,Other nonmalignant breast conditions
+620.1,620,Dysplasia of female genital organs
+789.1,789,Nausea and vomiting
+427.11,427.1,"Paroxysmal tachycardia, unspecified"
+427.12,427.1,"Paroxysmal tachycardia, unspecified"
+994.21,994.2,Sepsis
+172.3,172,Skin cancer
+540.11,540.1,Appendicitis
+346.2,346,Abnormal findings on study of brain and/or nervous system
+601.3,601,Inflammatory diseases of prostate
+601.8,601,Inflammatory diseases of prostate
+601.4,601,Inflammatory diseases of prostate
+728.71,728.7,Fasciitis
+747.12,747.1,Cardiac congenital anomalies
+747.13,747.1,Cardiac congenital anomalies
+747.11,747.1,Cardiac congenital anomalies
+536.3,536,Disorders of function of stomach
+536.7,536,Disorders of function of stomach
+536.8,536,Disorders of function of stomach
+611.3,611,Abnormal findings on mammogram or breast exam
+939.1,939,Atopic/contact dermatitis due to other or unspecified
+180.3,180,Cervical cancer and dysplasia
+180.1,180,Cervical cancer and dysplasia
+374.2,374,Other disorders of eyelids
+374.1,374,Other disorders of eyelids
+374.3,374,Other disorders of eyelids
+374.6,374,Other disorders of eyelids
+250.6,250,Diabetes mellitus
+250.5,250,Diabetes mellitus
+250.7,250,Diabetes mellitus
+250.3,250,Diabetes mellitus
+711.2,711,Arthropathy associated with infections
+711.3,711,Arthropathy associated with infections
+711.1,711,Arthropathy associated with infections
+327.71,327.7,Sleep related movement disorders
+327.72,327.7,Sleep related movement disorders
+592.12,592.1,Cystitis
+592.13,592.1,Cystitis
+592.11,592.1,Cystitis
+656.22,656.2,Respiratory conditions of fetus and newborn
+656.26,656.2,Respiratory conditions of fetus and newborn
+731.1,731,Osteitis deformans and osteopathies associated with other disorders classified elsewhere
+475.9,475,Chronic sinusitis
+747.2,747,Cardiac and circulatory congenital anomalies
+588.1,588,Disorders resulting from impaired renal function
+588.2,588,Disorders resulting from impaired renal function
+214.1,214,Lipoma
+256.1,256,Ovarian dysfunction
+256.4,256,Ovarian dysfunction
+281.13,281.1,Megaloblastic anemia
+281.11,281.1,Megaloblastic anemia
+281.12,281.1,Megaloblastic anemia
+440.22,440.2,Atherosclerosis of the extremities
+440.21,440.2,Atherosclerosis of the extremities
+362.31,362.3,Other nondiabetic retinopathy
+642.1,642,"Hypertension complicating pregnancy, childbirth, and the puerperium"
+580.12,580.1,Glomerulonephritis
+580.14,580.1,Glomerulonephritis
+580.11,580.1,Glomerulonephritis
+580.13,580.1,Glomerulonephritis
+377.1,377,Disorders of optic nerve and visual pathways
+377.3,377,Disorders of optic nerve and visual pathways
+750.14,750.1,Upper gastrointestinal congenital anomalies
+750.11,750.1,Upper gastrointestinal congenital anomalies
+750.15,750.1,Upper gastrointestinal congenital anomalies
+750.13,750.1,Upper gastrointestinal congenital anomalies
+696.42,696.4,Psoriasis
+696.41,696.4,Psoriasis
+783.1,783,Fever of unknown origin
+279.8,279,Disorders involving the immune mechanism
+279.2,279,Disorders involving the immune mechanism
+626.21,626.2,Dysmenorrhea
+365.2,365,Glaucoma
+365.5,365,Glaucoma
+426.31,426.3,Bundle branch block
+426.32,426.3,Bundle branch block
+743.22,743.2,Pathologic fracture
+743.21,743.2,Pathologic fracture
+251.8,251,Other disorders of pancreatic internal secretion
+555.1,555,Inflammatory bowel disease and other gastroenteritis and colitis
+737.3,737,Curvature of spine
+737.1,737,Curvature of spine
+737.2,737,Curvature of spine
+414.2,414,Other forms of chronic heart disease
+454.11,454.1,Varicose veins of lower extremity
+556.11,556.1,Ulceration of intestine
+277.51,277.5,Other disorders of lipoid metabolism
+338.1,338,Pain
+338.2,338,Pain
+840.1,840,Sprains and strains
+840.2,840,Sprains and strains
+840.3,840,Sprains and strains
+381.11,381.1,Otitis media
+562.2,562,Diverticulosis and diverticulitis
+562.1,562,Diverticulosis and diverticulitis
+571.51,571.5,Other chronic nonalcoholic liver disease
+081.11,081.1,Graft-versus-host disease
+081.12,081.1,Graft-versus-host disease
+260.22,260.2,severe protein-calorie malnutrition
+260.21,260.2,severe protein-calorie malnutrition
+401.3,401,Hypertension
+401.1,401,Hypertension
+255.3,255,Disorders of adrenal glands
+165.1,165,Cancer within the respiratory system
+415.11,415.1,Acute pulmonary heart disease
+134.1,134,Helminthiases
+189.21,189.2,Cancer of bladder
+370.31,370.3,Keratoconjunctivitis
+031.1,031,Diseases due to other mycobacteria
+365.11,365.1,Open-angle glaucoma
+317.11,317.1,Alcoholism
+960.3,960,Poisoning by antibiotics
+960.1,960,Poisoning by antibiotics
+960.2,960,Poisoning by antibiotics
+200.1,200,Myeloproliferative disease
+411.41,411.4,Coronary atherosclerosis
+758.1,758,Chromosomal anomalies and genetic disorders
+473.3,473,Diseases of the larynx and vocal cords
+473.4,473,Diseases of the larynx and vocal cords
+473.1,473,Diseases of the larynx and vocal cords
+752.2,752,Nervous system congenital anomalies
+053.1,053,Herpes zoster
+520.2,520,Disorders of tooth development
+520.1,520,Disorders of tooth development
+253.11,253.1,Pituitary hyperfunction
+964.1,964,Poisoning by agents primarily affecting blood constituents
+756.22,756.2,Pectus and other congenital anomalies of ribs/sternum
+756.21,756.2,Pectus and other congenital anomalies of ribs/sternum
+687.3,687,Symptoms affecting skin
+972.2,972,Poisoning by agents primarily affecting the cardiovascular system
+972.1,972,Poisoning by agents primarily affecting the cardiovascular system
+972.6,972,Poisoning by agents primarily affecting the cardiovascular system
+580.31,580.3,Nephritis and nephropathy without mention of glomerulonephritis
+580.32,580.3,Nephritis and nephropathy without mention of glomerulonephritis
+334.21,334.2,Anterior horn cell disease
+579.2,579,Other symptoms involving abdomen and pelvis
+750.5,750,Digestive congenital anomalies
+261.41,261.4,Vitamin D deficiency
+227.2,227,Benign neoplasm of other endocrine glands and related structures
+227.3,227,Benign neoplasm of other endocrine glands and related structures
+227.1,227,Benign neoplasm of other endocrine glands and related structures
+312.3,312,Conduct disorders
+331.9,331,Other cerebral degenerations
+331.1,331,Other cerebral degenerations
+303.4,303,Psychogenic and somatoform disorders
+302.1,302,Sexual and gender identity disorders
+280.1,280,Iron deficiency anemias
+280.2,280,Iron deficiency anemias
+516.1,516,Abnormal sputum
+704.12,704.1,Alopecia
+704.11,704.1,Alopecia
+364.51,364.5,Corneal dystrophy
+655.1,655,Known or suspected fetal abnormality affecting management of mother
+345.3,345,"Epilepsy, recurrent seizures, convulsions"
+110.13,110.1,Dermatophytosis
+110.11,110.1,Dermatophytosis
+110.12,110.1,Dermatophytosis
+375.2,375,Disorders of lacrimal system
+433.12,433.1,Occlusion and stenosis of precerebral arteries
+433.11,433.1,Occlusion and stenosis of precerebral arteries
+537.1,537,Other disorders of stomach and duodenum
+274.21,274.2,Crystal arthropathies
+691.1,691,Congenital anomalies of skin
+691.3,691,Congenital anomalies of skin
+245.21,245.2,Chronic thyroiditis
+172.11,172.1,"Melanomas of skin, dx or hx"
+288.11,288.1,Decreased white blood cell count
+451.2,451,Phlebitis and thrombophlebitis
+801.1,801,Fracture of ankle and foot
+568.1,568,Other disorders of peritoneum
+528.41,528.4,Cysts of oral soft tissues
+963.1,963,Poisoning by primarily systemic agents
+500.2,500,Lung disease due to external agents
+500.1,500,Lung disease due to external agents
+287.32,287.3,Thrombocytopenia
+287.31,287.3,Thrombocytopenia
+695.21,695.2,Bullous dermatoses
+695.22,695.2,Bullous dermatoses
+242.31,242.3,Exophthalmos
+593.1,593,Hematuria
+225.2,225,Benign neoplasm of brain and other parts of nervous system
+225.1,225,Benign neoplasm of brain and other parts of nervous system
+792.1,792,Abnormal Papanicolaou smear of cervix and cervical HPV
+571.81,571.8,Liver abscess and sequelae of chronic liver disease
+041.11,041.1,Staphylococcus infections
+041.12,041.1,Staphylococcus infections
+713.5,713,Arthropathy associated with other disorders classified elsewhere
+155.1,155,Cancer of liver and intrahepatic bile duct
+112.3,112,Candidiasis
+433.21,433.2,Occlusion of cerebral arteries
+441.1,441,Vascular insufficiency of intestine
+441.2,441,Vascular insufficiency of intestine
+601.12,601.1,Prostatitis
+601.11,601.1,Prostatitis
+524.3,524,"Dentofacial anomalies, including malocclusion"
+625.1,625,Pain and other symptoms associated with female genital organs
+797.1,797,Shock
+283.21,283.2,Non-autoimmune hemolytic anemias
+592.21,592.2,Urethritis and urethral syndrome
+364.41,364.4,Corneal degenerations
+720.1,720,Spinal stenosis
+184.11,184.1,Malignant neoplasm of ovary and other uterine adnexa
+759.1,759,Other and unspecified congenital anomalies
