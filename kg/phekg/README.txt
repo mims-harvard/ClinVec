@@ -1,71 +1,39 @@
-PheMap: a multi-resource knowledgebase for high-throughput phenotyping within electronic health records. 
+# README
 
-Version: 1.1
+The PheKG knowledge graph builds upon multiple publicaly available resources, including 
+the PheMap knowledgebase and the phecode coding system. We provide short descriptions and
+citations of these resources below:
 
-Please contact Neil Zheng (neil.zheng@vumc.org) or Wei-Qi Wei (wei-qi.wei@vumc.org) with any questions.
+### PheMap
 
-------------------------------------------------------------
-Files:
+"PheMap: a multi-resource knowledge base for high-throughput phenotyping within electronic health records
+"
 
+Citation: Zheng, Neil S., et al. "PheMap: a multi-resource knowledge base for high-throughput phenotyping 
+within electronic health records." Journal of the American Medical Informatics Association 27.11 (2020): 1675-1687.
 
+version: 1.1
 
-*PheMap_Mapped_Terminologies_1.1.csv*
+Link to paper: https://academic.oup.com/jamia/article/27/11/1675/5911254
 
-The PheMap knowledgebase ready for implementation in EHRs in OMOP Common Data Model. File contains weighted concepts with CUIs from UMLS mapped to standard medical terminologies, including ICD-9-CM, ICD-10-CM, SNOMED CT, CPT, LOINC, and RxNorm. 
-
-Fields			Description
----------------------------------------
-PHECODE			Manually curated codes designed to facilitate PheWAS in EHRs (https://phewascatalog.org/phecodes)
-CODE			Code in medical terminology
-SOURCE			Name of medical terminology
-DESCRIPTION		Description of code from medical terminology
-TFIDF			Weighted PheMap score for concept
-
+Links used for download (as of ): 
+https://phewascatalog.org/files/phemap/PheMap_Mapped_Terminologies_1.1.csv
+https://phewascatalog.org/files/phemap/Phecode_Relationship.csv 
 
 
+Modifications:
+To reduce the file size of PheMap_Mapped_Terminologies_1.1.csv, we removed all rows containing
+ICD10CM codes and provided this filtered version as PheMap_Mapped_Terminologies_1.1_filtered.csv
 
-*PheMap_UMLS_Concepts_1.1.csv*
+### Phecode v1.1
 
-The raw PheMap knowledgebase containing weighted concepts with CUIs from UMLS. 
+"Systematic comparison of phenome-wide association study of electronic medical record data and genome-wide association study data"
 
-Fields			Description
----------------------------------------
-PHECODE			Manually curated codes designed to facilitate PheWAS in EHRs (https://phewascatalog.org/phecodes)
-CUI			Concept unique identifier (CUI) from United Medical Language System (UMLS)
-TFIDF			Weighted PheMap score for concept
+version 1.1 
 
+Link to paper:
+https://www.nature.com/articles/nbt.2749
 
-
-
-
-*ICD_to_Phecode_mapping.csv*
-
-Mapping of ICD9CM and ICD10CM to phecode. 
-
-Fields			Description
----------------------------------------
-ICD			Codes from both ICD9CM and ICD10CM)
-ICD_STR			Description of ICD code
-PHECODE			Mapped phecode for respective ICD code
-PHENOTYPE		Description of phecode 
-
-
-
-
-
-*Phecode_Relationship.csv*
-
-The hierarchical relationship mapping between phecodes. 
-
-Fields			Description
----------------------------------------
-CHILD_CODE		Child phecode
-PARENT_CODE		Parent phecode (i.e., child phecode is a subphenotype of parent phecode)
-PARENT_STR		Description of parent phecode
-
-
-
-
-
-
-
+Links used for download: (as of 02-13-2024)
+https://phewascatalog.org/files/phecode_definitions1.1.csv.zip 
+https://phewascatalog.org/files/phecode_icd9_map_unrolled.csv.zip
