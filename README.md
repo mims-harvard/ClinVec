@@ -1,5 +1,7 @@
 # Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
 
+### [NEW] Tutorial added! (see [here](#tutorial))
+
 ## Overview
 
 These clinical knowledge embeddings provide a standardized resource for 
@@ -42,3 +44,5 @@ Follow the previous step above to construct the KG or download the KG csv from H
 Thank you for the flattery. We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `analyses/`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
 
 Note that we provide a modified version of the phenotype risk score analysis using synthetic data since this analysis requires individual-level patient data. 
+
+<h2 id="tutorial">1. Tutorial </h2>
