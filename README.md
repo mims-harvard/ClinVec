@@ -15,7 +15,7 @@ of each clinical concept. This resource offers a hypothesis-free approach to gen
 
 The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
 
-<img src="img/github_img_1.png" alt="overview" width="200"/>
+<img src="img/github_img_1.png" alt="overview" width="500"/>
 
 ## Installation and setup
 
@@ -52,4 +52,4 @@ Note that we provide a modified version of the phenotype risk score analysis usi
 
 We've provided a short tutorial that walks through downloading the embeddings, mapping the embeddings to the corresponding clinical code names/ids, and some visualizations. See the notebook located in `tutorial/`. 
 
-<img src="img/umap.png" alt="overview" width="200"/>
+<img src="img/umap.png" alt="overview" width="500"/>
