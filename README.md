@@ -1,6 +1,7 @@
 # Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
 
 ### [NEW] Tutorial added! (see [here](#tutorial))
+### [NEW] medrxiv preprint posted: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2)
 
 ## Overview
 
@@ -11,6 +12,8 @@ derived from a clinical knowledge graph specifically suited to EHR vocabularies 
 Using state-of-the-art graph transformer neural networks, we generated high-dimensional, machine-readable representations 
 of each clinical concept. This resource offers a hypothesis-free approach to generating rich representations of clinical
  knowledge across 7 different medical vocabularies without any dependence on patient-level information. 
+
+The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
 
 ![](img/github_img_1.png)
 
@@ -45,4 +48,6 @@ Thank you for the flattery. We've provided individual Jupyter notebooks for each
 
 Note that we provide a modified version of the phenotype risk score analysis using synthetic data since this analysis requires individual-level patient data. 
 
-<h2 id="tutorial">1. Tutorial </h2>
+<h2 id="tutorial">Tutorial </h2>
+
+We've provided a short tutorial that walks through downloading the embeddings, mapping the embeddings to the corresponding clinical code names/ids, and some visualizations. See the notebook located in `tutorial/`. 
