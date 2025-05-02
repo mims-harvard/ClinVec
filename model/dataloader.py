@@ -3,6 +3,8 @@ import pytorch_lightning as pl
 import random
 import dgl
 
+# NOTES: sample by og node type or it will be too easy
+# filter super high degree nodes (like infections)
 
 # set seeds
 torch.manual_seed(0)
@@ -15,7 +17,7 @@ np.random.seed(0)
     dl_config: batch_size, sampler, n_neg, idx
 """
 class edge_pred_dataloader(pl.LightningDataModule):              
-    def __init__(self, homo_hg, homo_hg_dict):
+    def __init__(self, homo_hg, homo_hg_dict, rev_edge_dict):
         super().__init__()
 
         e_n_neg = homo_hg_dict['n_neg']
@@ -26,7 +28,7 @@ class edge_pred_dataloader(pl.LightningDataModule):
         e_sampler = dgl.dataloading.MultiLayerNeighborSampler(fanout_list, prob='p')
         #e_sampler = dgl.dataloading.MultiLayerNeighborSampler([100, 10], prob='p')
 
-        self.edge_dataloader = typed_edge_dataloader(homo_hg, e_sampler, e_batch_size, e_n_neg)
+        self.edge_dataloader = typed_edge_dataloader(homo_hg, e_sampler, e_batch_size, e_n_neg, rev_edge_dict)
         self.e_batch_size = e_batch_size
                 
     def __len__(self):
@@ -38,37 +40,34 @@ class edge_pred_dataloader(pl.LightningDataModule):
 
 
 class typed_edge_dataloader():
-    def __init__(self, homo_hg, sampler, edge_batch, n_neg):
+    def __init__(self, homo_hg, sampler, edge_batch, n_neg, rev_edge_dict):
 
         self.homo_hg = homo_hg
         self.n_negs = n_neg
         self.sampler = sampler 
+        self.all_nodes = set(homo_hg.nodes().tolist())
 
         # save list of nodes per ntype
         self.all_node_ntypes = {}
-        for i in torch.unique(homo_hg.ndata['_TYPE']):
+        for i in torch.unique(homo_hg.ndata['ntype']):
             self.all_node_ntypes[i.item()] = []
 
-        for nid, ntype in zip(homo_hg.nodes(), homo_hg.ndata['_TYPE']):
+        for nid, ntype in zip(homo_hg.nodes(), homo_hg.ndata['ntype']):
             self.all_node_ntypes[ntype.item()].append(nid.item())
 
         # ntype lookup
         self.ntype_lookup = {}
-        for nid, ntype in zip(homo_hg.nodes(), homo_hg.ndata['_TYPE']):
+        for nid, ntype in zip(homo_hg.nodes(), homo_hg.ndata['ntype']):
             self.ntype_lookup[nid.item()] = ntype.item()
  
         # reverse edges for exclusion
-        self.rev_id_dict = self.make_rev_id_dict()
+        self.rev_id_dict = rev_edge_dict
         
         edge_prob_map = {
-            0: 1.0, 1: 1.0, 2: 1.0, 
-            3: 5.0, 4: 1.0, 5: 2.0,
-            6: 1.0, 7: 5.0, 8: 5.0,
-            9: 2.0, 10: 1, 11: 1.0,
-            12: 5.0, 13: 5.0, 14: 5.0, 15: 1.0
+            0: 1.0, 1: 5.0
         }
         
-        self.homo_hg.edata['p'] = torch.tensor([edge_prob_map[x] for x in self.homo_hg.edata['_TYPE'].tolist()])
+        self.homo_hg.edata['p'] = torch.tensor([edge_prob_map[x] for x in self.homo_hg.edata['etype'].tolist()])
 
         # train over ALL edges for full model training
         self.train_eids = self.homo_hg.edges(form='eid').tolist()
@@ -90,8 +89,10 @@ class typed_edge_dataloader():
 
         # sample from all possible dst nodes 
         curr_dst = self.homo_hg.out_edges(src_id)[1].tolist()
+
+        # match negs by ntype
         cand_negs = list(set(self.all_node_ntypes[dst_type_ind]) - set(curr_dst))
-        
+        #cand_negs = list(self.all_nodes - set(curr_dst))
         neg_dst_list = random.sample(cand_negs, self.n_negs)
         neg_dst_list = torch.tensor(neg_dst_list)
 
@@ -147,13 +148,13 @@ class typed_edge_dataloader():
     def make_rev_id_dict(self):
         # get forward/backward edge ids
         forward_eid_list = []
-        for eid, type_ind in zip(self.homo_hg.edges(form='eid'), self.homo_hg.edata['_TYPE'].detach().tolist()):
-            if type_ind in [15, 12, 0, 1, 2, 6, 8, 9]:
+        for eid, type_ind in zip(self.homo_hg.edges(form='eid'), self.homo_hg.edata['etype'].detach().tolist()):
+            if type_ind in [0]:
                 forward_eid_list.append(eid.item())
 
         backward_eid_list = []
-        for eid, type_ind in zip(self.homo_hg.edges(form='eid'), self.homo_hg.edata['_TYPE'].detach().tolist()):
-            if type_ind in [14, 13, 3, 4, 5, 7, 10, 11]:
+        for eid, type_ind in zip(self.homo_hg.edges(form='eid'), self.homo_hg.edata['etype'].detach().tolist()):
+            if type_ind in [1]:
                 backward_eid_list.append(eid.item())
 
         rev_id_dict = {}

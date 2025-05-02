@@ -1,7 +1,7 @@
 # Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
 
-### [NEW] Tutorial added! (see [here](#tutorial))
-### [NEW] medrxiv preprint posted: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2)
+### [NEW] Updated knowledge graph and embeddings with 3-times the number of nodes! Download on Harvard Dataverse: [https://doi.org/10.7910/DVN/Z6H1A8](https://doi.org/10.7910/DVN/Z6H1A8) [no login required]
+
 
 ## Overview
 

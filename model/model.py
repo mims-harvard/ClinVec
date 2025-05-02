@@ -14,39 +14,6 @@ random.seed(0)
 import numpy as np
 np.random.seed(0)
 
-# original mini hgt
-class orig_mini_hgt(pl.LightningModule):
-    def __init__(self, hg, in_feat=64, head_size=8, num_heads=2, out_feat=128):
-        super().__init__()
-
-        ntypes = 1
-
-        head_size_1 = 512
-        self.conv1 = dgl.nn.pytorch.conv.HGTConv(in_feat, head_size_1,
-                                            num_heads, ntypes, 1, use_norm=True, dropout=0.05)
-        
-        head_size_2 = 256
-        self.conv2 = dgl.nn.pytorch.conv.HGTConv(head_size_1*num_heads, head_size_2,
-                                                num_heads, ntypes, 1, use_norm=True, dropout=0.05)
-        
-        self.linear = nn.Linear(head_size_2*num_heads, out_feat)
-
-        self.relu = nn.ReLU()
-
-    def forward(self, blocks, x):
-        b = blocks[0]
-        x = self.conv1(b, x, torch.zeros_like(b.ndata['_TYPE']['_N']),
-                       torch.zeros_like(b.edata['_TYPE']))
-        x = self.relu(x)
-
-        b = blocks[1]
-        x = self.conv2(b, x, torch.zeros_like(b.ndata['_TYPE']['_N']),
-                       torch.zeros_like(b.edata['_TYPE']))
-        x = self.linear(x)
-
-        return x
-
-
 """
     config_dict: in_feat, out_feat, head_size_1, head_size_2, num_heads_1, num_heads_2, dropout
 """
@@ -65,17 +32,20 @@ class mini_hgt(pl.LightningModule):
 
         for i in range(self.num_layers):
             in_dim = in_feat if i == 0 else head_size * num_heads
-            conv = dgl.nn.pytorch.conv.HGTConv(in_dim, head_size, num_heads, 1, 1, use_norm=True, dropout=dropout)
-            self.convs.append(conv)
+            conv = dgl.nn.pytorch.conv.HGTConv(in_dim, head_size, num_heads, 4, 1, use_norm=True, dropout=dropout)
+            self.convs.append(conv) # 7
         self.linear = torch.nn.Linear(head_size * num_heads, out_feat)
         self.relu = torch.nn.ReLU()
 
     def forward(self, blocks, x):
         for i in range(self.num_layers):
             b = blocks[i]
-            x = self.convs[i](b, x, torch.zeros_like(b.ndata['_TYPE']['_N']),
-                              torch.zeros_like(b.edata['_TYPE']))
-
+            x = self.convs[i](b, x, b.ndata['ntype']['_N'],  # torch.zeros_like(b.ndata['ntype']['_N'])
+                              torch.zeros_like(b.edata['etype']))
+            
+            #x = self.convs[i](b, x, torch.zeros_like(b.ndata['ntype']['_N']),  # torch.zeros_like(b.ndata['ntype']['_N'])
+            #                  torch.zeros_like(b.edata['etype']))
+            
             # if not last layer
             if i < self.num_layers - 1:
                 x = self.relu(x)
@@ -98,11 +68,7 @@ class EdgePredModel(pl.LightningModule):
         self.homo_hg = homo_hg
         
         self.het_gnn = mini_hgt(hgt_config)
-        #in_features = 1024 
-        #out_features = 128
-        #self.het_gnn = orig_mini_hgt(homo_hg, in_features, head_size=512,
-        #                             num_heads=2, out_feat=out_features)
-        
+
         self.accuracy = torchmetrics.classification.Accuracy(task='binary')
         self.softmax = nn.Softmax(dim=1)
         self.cos = nn.CosineSimilarity(dim=1, eps=1e-6)
@@ -173,12 +139,9 @@ class EdgePredModel(pl.LightningModule):
         return loss, acc
     
     def compute_infonce(self, similarity_list):
-        score_list = []
-        target_list = []
         
         scores = torch.stack(similarity_list)
         last_value = scores.shape[1] - 1
-        target_list = torch.zeros(len(scores), device=self.device)
         acc = self.infonce_accuracy(scores)
         scores = torch.flip(scores, dims=(1,)) # reverse order of scores
         targets = torch.tensor([last_value]*len(scores), device=self.device)
@@ -207,7 +170,7 @@ class EdgePredModel(pl.LightningModule):
     def configure_optimizers(self):
         param_list = [{'params': self.het_gnn.parameters()}]
         optimizer = torch.optim.Adam(param_list, lr=self.lr)
-        lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.5, verbose=True)
+        lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=2, gamma=0.5, verbose=True)
         return [optimizer], [lr_scheduler]
     
  
