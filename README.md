@@ -17,7 +17,7 @@ The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12
 Depending on what level of analysis you're performing, you may not need to install the full list of packages.
 
 ### "I just want the KG and/or embeddings"
-No need to install any dependencies. Please download the embeddings from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8).
+No need to install any dependencies. Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The provided readme describes the available data formats and how to read in each object. 
 
 ### "I just want the scripts to construct the KG from the source files"
 
@@ -29,7 +29,7 @@ pandas==2.2.2
 numpy==1.24.4
 ```
 
-Navigate to `kg/` where `clingraph.ipynb` will walk through downloading all of the source files and constructing the knowledge graph from scratch. Note that due to licensing, users will be required to register and download certain source files (e.g. UMLS, LOINC codes). 
+Navigate to `kg/` where `build_clingraph.ipynb` will walk through downloading all of the source files and constructing the knowledge graph from scratch. Note that due to licensing, users will be required to register and download certain source files (e.g. UMLS, LOINC codes). 
 
 ### "I want to train and create embeddings from scratch"
 
