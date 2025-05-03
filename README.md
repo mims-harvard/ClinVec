@@ -10,7 +10,7 @@ We introduce ClinGraph, a clinical knowledge graph that integrates 8 EHR-based v
 
 The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
 
-<img src="img/github_img_2.pdf" alt="overview" width="500"/>
+<img src="img/github_img_2.png" alt="overview" width="500"/>
 
 ## Installation and setup
 
