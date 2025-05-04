@@ -3,6 +3,8 @@
 ### [NEW] Updated ClinGraph knowledge graph and ClinVec embeddings with 3-times the number of nodes! 
 Download on Harvard Dataverse: [https://doi.org/10.7910/DVN/Z6H1A8](https://doi.org/10.7910/DVN/Z6H1A8) [no login required]
 
+### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
+See the notebook titled in `download_clingraph_clinvec.ipynb`.
 
 ## Overview
 
@@ -46,3 +48,7 @@ Thank you for the flattery. We've provided individual Jupyter notebooks for each
 We've provided a short tutorial that walks through downloading the embeddings, mapping the embeddings to the corresponding clinical code names/ids, and some visualizations. See the notebook located in `tutorial/`. 
 
 <img src="img/umap.png" alt="overview" width="500"/>
+
+<h2 id="tutorial">Questions </h2>
+
+For questions, please leave a GitHub issue or contact Ruth Johnson at ruth_johnson @ hms.harvard.edu
