@@ -58,6 +58,7 @@ The ClinGraph knowledge graph, ClinVec embeddings, and all associated code is li
 
 <h2>Citation </h2>
 If you use ClinGraph or ClinVec in your work, please add the following citation:
+
 ```
 @article{johnson2024unified,
   title={Unified Clinical Vocabulary Embeddings for Advancing Precision},
