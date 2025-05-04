@@ -49,6 +49,23 @@ We've provided a short tutorial that walks through downloading the embeddings, m
 
 <img src="img/umap.png" alt="overview" width="500"/>
 
-<h2 id="tutorial">Questions </h2>
+<h2>Questions </h2>
 
 For questions, please leave a GitHub issue or contact Ruth Johnson at ruth_johnson @ hms.harvard.edu
+
+<h2>License </h2>
+The ClinGraph knowledge graph, ClinVec embeddings, and all associated code is licensed under the MIT License. 
+
+<h2>Citation </h2>
+If you use ClinGraph or ClinVec in your work, please add the following citation:
+```
+@article{johnson2024unified,
+  title={Unified Clinical Vocabulary Embeddings for Advancing Precision},
+  author={Johnson, Ruth and Gottlieb, Uri and Shaham, Galit and Eisen, Lihi and Waxman, Jacob and Devons-Sberro, Stav and Ginder, Curtis R and Hong, Peter and Sayeed, Raheel and Reis, Ben Y and others},
+  journal={medRxiv},
+  pages={2024--12},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory Press}
+}
+```
+
