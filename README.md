@@ -31,7 +31,7 @@ pandas==2.2.2
 numpy==1.24.4
 ```
 
-Navigate to `kg/` where `build_clingraph.ipynb` will walk through downloading all of the source files and constructing the knowledge graph from scratch. Note that due to licensing, users will be required to register and download certain source files (e.g. UMLS, LOINC codes). 
+Navigate to `tutorial/` where `020_build_kg.ipynb` will walk through downloading all of the source files and constructing the knowledge graph from scratch. Note that due to licensing, users will be required to register and download certain source files (e.g. UMLS, LOINC codes). 
 
 ### "I want to train and create embeddings from scratch"
 
@@ -39,15 +39,20 @@ This requires installing ML graph-specific libraries. We've provided the conda e
 
 Follow the previous step above to construct the KG or download the KG csv from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The model source code and scripts for training are provided in `model/`.
 
+<h2>Tutorials</h2>
+
 ### "I want to recreate the entire paper because I liked it so much"
 
-Thank you for the flattery. We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `analyses/`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
+Thank you for the flattery. We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `tutorial/`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
 
-<h2 id="tutorial">Tutorial </h2>
-
-We've provided a short tutorial that walks through downloading the embeddings, mapping the embeddings to the corresponding clinical code names/ids, and some visualizations. See the notebook located in `tutorial/`. 
-
-<img src="img/umap.png" alt="overview" width="500"/>
+```
+010_download_clingraph_clinvec.ipynb
+020_build_kg.ipynb
+030_umap.ipynb
+040_embedding_composition.ipynb
+050_risk_score_weights.ipynb
+060_medqa
+```
 
 <h2>Questions </h2>
 
