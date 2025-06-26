@@ -4,7 +4,7 @@
 Download on Harvard Dataverse: [https://doi.org/10.7910/DVN/Z6H1A8](https://doi.org/10.7910/DVN/Z6H1A8) [no login required]
 
 ### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
-See the notebook titled in `download_clingraph_clinvec.ipynb`.
+See the notebook titled in `tutorial/010_download_clingraph_clinvec.ipynb`.
 
 ## Overview
 
