@@ -2,3 +2,5 @@
 *.gz
 *.csv
 *.tab
+.DS_Store
+*~
