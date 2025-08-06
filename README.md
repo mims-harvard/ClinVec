@@ -1,10 +1,9 @@
 # ClinGraph & ClinVec: Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
-
-### [NEW] Updated ClinGraph knowledge graph and ClinVec embeddings with 3-times the number of nodes! 
-Download on Harvard Dataverse: [https://doi.org/10.7910/DVN/Z6H1A8](https://doi.org/10.7910/DVN/Z6H1A8) [no login required]
-
 ### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
 See the notebook titled in `tutorial/010_download_clingraph_clinvec.ipynb`.
+
+### [NEW] Reproduce main and supplementary figures 
+See the notebook titled in `tutorial/figureX.ipynb`.
 
 ## Overview
 
@@ -19,7 +18,7 @@ The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12
 Depending on what level of analysis you're performing, you may not need to install the full list of packages.
 
 ### "I just want the KG and/or embeddings"
-No need to install any dependencies. Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The provided readme describes the available data formats and how to read in each object. 
+No need to install any dependencies. Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The provided readme describes the available data formats and how to read in each object. See `tutorial/010_download_clingraph_clinvec.ipynb` for a walkthrough.
 
 ### "I just want the scripts to construct the KG from the source files"
 
@@ -43,7 +42,7 @@ Follow the previous step above to construct the KG or download the KG csv from H
 
 ### "I want to recreate the entire paper because I liked it so much"
 
-Thank you for the flattery. We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `tutorial/`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
+Thank you for the flattery. We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `tutorial/[figure_X].ipynb`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
 
 ```
 010_download_clingraph_clinvec.ipynb
@@ -51,7 +50,7 @@ Thank you for the flattery. We've provided individual Jupyter notebooks for each
 030_umap.ipynb
 040_embedding_composition.ipynb
 050_risk_score_weights.ipynb
-060_medqa
+060_medqa.ipynb
 ```
 
 <h2>Questions </h2>
