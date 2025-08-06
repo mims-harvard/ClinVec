@@ -1,8 +1,7 @@
 # ClinGraph & ClinVec: Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
-### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
+#### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
 See the notebook titled in `tutorial/010_download_clingraph_clinvec.ipynb`.
-
-### [NEW] Reproduce main and supplementary figures 
+#### [NEW] Reproduce main and supplementary figures 
 See the notebook titled in `tutorial/figureX.ipynb`.
 
 ## Overview
@@ -11,14 +10,73 @@ We introduce ClinGraph, a clinical knowledge graph that integrates 8 EHR-based v
 
 The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
 
-<img src="img/github_img_2.png" alt="overview" width="500"/>
+<p align="center">
+  <img src="img/github_img_2.png" alt="overview" width="500"/>
+</p>
 
-## Installation and setup
+## Downloading ClinGraph & ClinVec
+#### 1. Downloading ClinGraph
+Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse ([https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8)). Note that there is NO LOGIN required. A more in-depth tutorial for downloading the files is in `tutorial/010_download_clingraph_clinvec.ipynb`.
 
-Depending on what level of analysis you're performing, you may not need to install the full list of packages.
+#### 2. ClinGraph formats
+Click on the **Download button**. This will open a tab where you can click the format you'd like to download. 
+- `ClinGraph_node.csv`: this contains all the node metadata and index information.
+- `ClinGraph_edges.csv`: this contains the triplet information used to construct the KG. We also include each node's metadata that's found in ClinGraph_node.csv for convenience.
+- `ClinGraph_dgl.bin`: ClinGraph in DGL binary format. We store the node types and node features under the node data (`ndata`) attribute. 
+- `ClinGraph_adjlist.csv`: ClinGraph in adjacency list format; format matches NetworkX syntax. This format does not include node features.
+- `ClinGraph_pyg.pt`: ClinGraph as a PyTorch Genometric object. Node features are saved under the `x` attribute.
+
+#### 3. Read in ClinGraph using format of choice.
+
+```
+# DGL
+from dgl.data.utils import load_graphs
+graph_list, _ = load_graphs("ClinGraph_dgl.bin")
+g = graph_list[0]
+
+# NetworkX
+import networkx as nx
+g = nx.read_adjlist("ClinGraph_adjlist.csv")
+
+# PyTorch Geometric
+from torch_geometric.data import Data
+import torch
+
+g = torch.load('ClinGraph_pyg.pt', weights_only=False)
+```
+#### 4. Download ClinVec (embeddings).
+
+The embeddings are located in the same repository as ClinGraph. We separate embedding files by source vocabulary. 
+
+- `ClinVec_atc.csv` 
+- `ClinVec_cpt.csv`
+- `ClinVec_icd10cm.csv`
+- `ClinVec_icd9cm.csv`
+- `ClinVec_lnc.csv`
+- `ClinVec_phecode.csv`
+- `ClinVec_rxnorm.csv`
+- `ClinVec_snomedct.csv`
+- `ClinVec_umls.csv`
+
+#### 5. Read in embeddings.
+
+```
+import pandas as pd
+
+# load phecode embeddings
+df = pd.read_csv("ClinVec_phecode.csv")
+
+# get matrix of embeddings
+emb_mat = df.values
+
+# get node metadata
+node_df = pd.read_csv("ClinGraph_nodes.csv", sep='\t')
+df['node_index'] = df.index
+phecode_emb_df = df.merge(node_df, how='inner', on='node_index')
+```
 
 ### "I just want the KG and/or embeddings"
-No need to install any dependencies. Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The provided readme describes the available data formats and how to read in each object. See `tutorial/010_download_clingraph_clinvec.ipynb` for a walkthrough.
+No need to install any dependencies.  The provided readme describes the available data formats and how to read in each object. See `tutorial/010_download_clingraph_clinvec.ipynb` for a walkthrough.
 
 ### "I just want the scripts to construct the KG from the source files"
 
