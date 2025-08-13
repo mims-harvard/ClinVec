@@ -19,7 +19,7 @@ The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12
 Please download the ClinGraph node/edge files and ClinVec embeddings from Harvard Dataverse ([https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8)). Note that there is NO LOGIN required. A more in-depth tutorial for downloading the files is in `tutorials/010_download_clingraph_clinvec.ipynb`.
 
 #### 2. ClinGraph formats
-Click on the **Download button**. This will open a tab where you can click the format you'd like to download. 
+You can click the format you'd like to download (described below). Click on the **Download button** and select "Original Format". Alternatively, click **Access Dataset** at the top right-hand corner to download everything in a zip. 
 - `ClinGraph_node.csv`: this contains all the node metadata and index information.
 - `ClinGraph_edges.csv`: this contains the triplet information used to construct the KG. We also include each node's metadata that's found in ClinGraph_node.csv for convenience.
 - `ClinGraph_dgl.bin`: ClinGraph in DGL binary format. We store the node types and node features under the node data (`ndata`) attribute. 
