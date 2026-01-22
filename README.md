@@ -1,8 +1,7 @@
 # ClinGraph & ClinVec: Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
-#### [NEW] Step-by-step guide on downloading ClinGraph and ClinVec in DGL, NetworkX, PyTorch Genometric, and triplet format! 
-See the notebook titled in `tutorials/010_download_clingraph_clinvec.ipynb`.
-#### [NEW] Reproduce main and supplementary figures 
-See the notebook titled in `tutorials/*.ipynb`.
+
+#### [NEW] Zero-shot retrieval analysis with disease symptom embeddings  
+See notebook `tutorials/070_zero_shot_retrieval.ipynb`
 
 ## Overview
 
