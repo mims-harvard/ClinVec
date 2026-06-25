@@ -97,10 +97,10 @@ Follow the previous step above to construct the KG or download the KG csv from [
 The full list of scored clinical term pairs can be found here: `tutorials/clinician_pair_scores.csv`. A description of each column is below:
 
 - `phenotype` - first clinical term in the form of a Phecode
-- `phecode` - phecode correponding to the target phenotype
+- `phecode` - phecode corresponding to the target phenotype
 - `category` - disease category of the phenotype
 - `node_name` - second clinical term in the form of a SNOMED CT code
-- `node_id` - ClinGraph node id for the node name
+- `node_id` - ClinGraph node ID for the node name
 - `score` - clinician annotated score from 1 (least related) to 5 (most related)
   
 ### Replicating main analyses/figures
