@@ -1,13 +1,20 @@
-# ClinGraph & ClinVec: Unified Clinical Vocabulary Embeddings for Advancing Precision Medicine
+# Embeddings of clinical codes enable knowledge-grounded AI in medicine
 
-#### [NEW] Zero-shot retrieval analysis with disease symptom embeddings  
-See notebook `tutorials/070_zero_shot_retrieval.ipynb`
+#### [NEW] An early access version of the manuscript can be found here:  
+[https://www.nature.com/articles/s41746-026-02664-9](https://www.nature.com/articles/s41746-026-02664-9)
+
+#### [NEW] Updated project website:  
+[https://zitniklab.hms.harvard.edu/projects/ClinVec/](https://zitniklab.hms.harvard.edu/projects/ClinVec/)
 
 ## Overview
 
 We introduce ClinGraph, a clinical knowledge graph that integrates 8 EHR-based vocabularies, and ClinVec, a set of 153,166 clinical code embeddings derived from ClinGraph using a graph transformer neural network. ClinVec provides a machine-readable representation of clinical knowledge that captures semantic relationships among diagnoses, medications, laboratory tests, and procedures. This resource offers a hypothesis-free approach to generating rich representations of clinical knowledge across standardized medical vocabularies without any dependence on patient-level information. 
 
-The preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
+An early access version of the manuscript can be found here:  [https://www.nature.com/articles/s41746-026-02664-9](https://www.nature.com/articles/s41746-026-02664-9)
+
+The full preprint can be found here: [https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2](https://www.medrxiv.org/content/10.1101/2024.12.03.24318322v2) 
+
+Project website: [https://zitniklab.hms.harvard.edu/projects/ClinVec/](https://zitniklab.hms.harvard.edu/projects/ClinVec/)
 
 <p align="center">
   <img src="img/github_img_2.png" alt="overview" width="500"/>
@@ -86,6 +93,15 @@ The key dependencies are PyTorch (v.2.5.1+cu124), pytorch-lightning (`v2.5.2`), 
 
 Follow the previous step above to construct the KG or download the KG csv from [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Z6H1A8). The model source code and scripts for training are provided in `model/` and the main training script is `model/main.py`.
 
+### Where are the scores for the clinician-annotated clinical terms?
+The full list of scored clinical term pairs can be found here: `tutorials/clinician_pair_scores.csv`. A description of each column is below:
+
+- `phenotype` - first clinical term in the form of a Phecode
+- `category` - disease category of the phenotype
+- `node_name` - second clinical term in the form of a SNOMED CT code
+- `node_id` - ClinGraph node id for the node name
+- `score` - clinician annotated score from 1 (least related) to 5 (most related)
+  
 ### Replicating main analyses/figures
 We've provided individual Jupyter notebooks for each of the main analyses presented in the paper under `tutorials/`. You will need to download the embeddings and associated key file (mapping indices to node names) here and change the file location at the top of each notebook.
 
@@ -96,6 +112,8 @@ We've provided individual Jupyter notebooks for each of the main analyses presen
 040_embedding_composition.ipynb
 050_risk_score_weights.ipynb
 060_medqa.ipynb
+070_zero_shot_retreival.ipynb
+080_clinician_benchmark.ipynb
 ```
 
 <h2>Questions </h2>
@@ -109,13 +127,12 @@ The ClinGraph knowledge graph, ClinVec embeddings, and all associated code is li
 If you use ClinGraph or ClinVec in your work, please add the following citation:
 
 ```
-@article{johnson2024unified,
-  title={Unified Clinical Vocabulary Embeddings for Advancing Precision},
-  author={Johnson, Ruth and Gottlieb, Uri and Shaham, Galit and Eisen, Lihi and Waxman, Jacob and Devons-Sberro, Stav and Ginder, Curtis R and Hong, Peter and Sayeed, Raheel and Reis, Ben Y and others},
-  journal={medRxiv},
-  pages={2024--12},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory Press}
+@article{johnson2026embeddings,
+  title={Embeddings of clinical codes enable knowledge-grounded AI in medicine},
+  author={Johnson, Ruth and Gottlieb, Uri and Shaham, Galit and Eisen, Lihi and Waxman, Jacob and Devons-Sberro, Stav and Ginder, Curtis R and Hong, Peter and Sayeed, Raheel and Su, Xiaorui and others},
+  journal={npj Digital Medicine},
+  year={2026},
+  publisher={Nature Publishing Group}
 }
 ```
 
